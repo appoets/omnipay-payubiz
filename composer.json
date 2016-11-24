@@ -1,0 +1,32 @@
+{
+    "name": "appoets/larvel-omnipay-payubiz",
+    "type": "library",
+    "description": "Laravel package for PayUBiz payment gateway with Omnipay",
+    "keywords": [
+        "gateway",
+        "laravel",
+        "merchant",
+        "pay",
+        "payment",
+        "payu",
+        "payubiz",
+        "purchase",
+        "omnipay"
+    ],
+    "homepage": "https://github.com/appoets/laravel-omnipay-payubiz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidharth Raveendran",
+            "email": "sidharth.s.r@appoets.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\PayUBiz\\": "src"
+        }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    }
+}
